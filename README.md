@@ -12,4 +12,8 @@ recursive call considers.
 
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
-markdown file.
+markdown file.  
+
+Answer: The worst case runtime occurs when the array is already sorted (ascending or descending) or all elements are identical. In this case, the partitions are highly unbalanced leading to n levels of recursion and n operations per level. 
+
+Worst Case: Θ(n^2)
